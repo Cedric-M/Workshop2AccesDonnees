@@ -1,0 +1,5 @@
+C:\Users\C3DRIC\Documents\Visual Studio 2015\Projects\eXia_sln_WS2\CAD\obj\Debug\CAD.csprojResolveAssemblyReference.cache
+C:\Users\C3DRIC\Documents\Visual Studio 2015\Projects\eXia_sln_WS2\CAD\bin\Debug\CAD.dll
+C:\Users\C3DRIC\Documents\Visual Studio 2015\Projects\eXia_sln_WS2\CAD\bin\Debug\CAD.pdb
+C:\Users\C3DRIC\Documents\Visual Studio 2015\Projects\eXia_sln_WS2\CAD\obj\Debug\CAD.dll
+C:\Users\C3DRIC\Documents\Visual Studio 2015\Projects\eXia_sln_WS2\CAD\obj\Debug\CAD.pdb
