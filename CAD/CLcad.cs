@@ -9,7 +9,7 @@ using System.Data;
 
 namespace CAD
 {
-    public class CAO
+    public class CLcad
     {
         private String cnx;
         private String rq_sql;
@@ -18,7 +18,7 @@ namespace CAD
         private SqlCommand Command;
         private DataSet DataSet;
 
-        public CAO()
+        public CLcad()
         {
             //constructeur par défaut qui initialisera les privates.
             this.cnx = "Data Source=ODB;Initial Catalog=msdb;Integrated Security=True";
@@ -29,7 +29,7 @@ namespace CAD
             this.DataSet = new DataSet();
 
         }
-        public void actionRows(String rq_sql)
+        public void actionRows(String rq_sql) //Query
         //méthode public void actionRows(string rq_sql). 
         //Cette méthode exécutera les requêtes actions SQL (insert – update – delete).
 
@@ -40,7 +40,7 @@ namespace CAD
             this.Command.ExecuteNonQuery();
             this.Connection.Close();
         }
-        public DataSet getRows(string rq_sql, string dataTableName)
+        public DataSet getRows(string rq_sql, string dataTableName) //Non-Query
         {
             //Cette méthode se chargera d’exécuter les requêtes de type récupération de données.
             this.rq_sql = rq_sql;
